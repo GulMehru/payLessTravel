@@ -14,6 +14,7 @@
 		044A72882018988A000178B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044A72862018988A000178B1 /* LaunchScreen.storyboard */; };
 		044A72932018988A000178B1 /* payLessTravelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A72922018988A000178B1 /* payLessTravelTests.swift */; };
 		044A729E2018988A000178B1 /* payLessTravelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A729D2018988A000178B1 /* payLessTravelUITests.swift */; };
+		044A72AE2018A7B7000178B1 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A72AD2018A7B7000178B1 /* SidebarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		044A72992018988A000178B1 /* payLessTravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = payLessTravelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		044A729D2018988A000178B1 /* payLessTravelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = payLessTravelUITests.swift; sourceTree = "<group>"; };
 		044A729F2018988A000178B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044A72AD2018A7B7000178B1 /* SidebarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		044A727120189889000178B1 = {
 			isa = PBXGroup;
 			children = (
+				044A72AC2018A750000178B1 /* Helper */,
 				044A727C20189889000178B1 /* payLessTravel */,
 				044A72912018988A000178B1 /* payLessTravelTests */,
 				044A729C2018988A000178B1 /* payLessTravelUITests */,
@@ -123,6 +126,14 @@
 				044A729F2018988A000178B1 /* Info.plist */,
 			);
 			path = payLessTravelUITests;
+			sourceTree = "<group>";
+		};
+		044A72AC2018A750000178B1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				044A72AD2018A7B7000178B1 /* SidebarView.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 			files = (
 				044A728020189889000178B1 /* ViewController.swift in Sources */,
 				044A727E20189889000178B1 /* AppDelegate.swift in Sources */,
+				044A72AE2018A7B7000178B1 /* SidebarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
