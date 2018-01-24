@@ -58,7 +58,7 @@ class SidebarView: UIView, UITableViewDelegate, UITableViewDataSource {
         titleArr = [ " ", "Home", "Flights", "Hotels", "Cars", "Insurance", "Blog", "About us", "Contact us"]
      
         setupViews()
-        self.myTableView.rowHeight = 5.0
+       // self.myTableView.rowHeight = 5.0
         myTableView.delegate=self
         myTableView.dataSource=self
         myTableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
